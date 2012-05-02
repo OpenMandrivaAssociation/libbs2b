@@ -16,7 +16,7 @@ License: MIT
 Group: Sound
 Url: http://bs2b.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libsndfile-devel
+BuildRequires: sndfile-devel
 
 
 %description
