@@ -2,6 +2,9 @@
 %define libname %mklibname bs2b %{major}
 %define devname %mklibname -d bs2b
 
+%define _disable_rebuild_configure 1
+%define _disable_lto 1
+
 Summary:	Bauer stereophonic-to-binaural DSP library
 Name:		libbs2b
 Version:	3.1.0
