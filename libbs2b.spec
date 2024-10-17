@@ -11,7 +11,7 @@ Version:	3.1.0
 Release:	23
 License:	MIT
 Group:		Sound
-Url:		http://bs2b.sourceforge.net/
+Url:		https://bs2b.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/sourceforge/bs2b/%{name}-%{version}.tar.lzma
 Patch0:		libbs2b-3.1.0-fix-format-strings.patch
 BuildRequires:	pkgconfig(sndfile)
