@@ -14,6 +14,11 @@ Group:		Sound
 Url:		https://bs2b.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/sourceforge/bs2b/%{name}-%{version}.tar.lzma
 Patch0:		libbs2b-3.1.0-fix-format-strings.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(sndfile)
 
 %description
